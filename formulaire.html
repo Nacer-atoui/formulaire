@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <link rel="stylesheet" href="formulaire.css">
+    <title>Formulaire</title>
+</head>
+
+<body>
+    <div class="titre">
+        <h1>Bienvenue</h1>
+        <h2>Inscrivez-vous</h2>
+    </div>
+
+    <div class="formulaire">
+    
+        <fieldset id="section1">
+            
+        <form methode="post" action="traitement.php">
+            <label for="prenom">prénom</label>
+            <input type="text" id="prenom" name="prenom"><br />
+
+            <label for="nom">nom</label>
+            <input type="text" id="nom" name="nom"><br />
+
+            <label for="naissance">Date de naissance</label>
+            <input type="date" id="naissance" name="naissance"><br />
+
+            <label for="age">Age</label>
+            <input type="number" id="age" name="age"><br />
+
+            <label for="telephone">Telephone</label>
+            <input type="tel" name="telephone" id="telephone"><br />
+
+
+
+            <label for="mail">Votre e-mail</label>
+            <input type="email" id="mail" name="mail"><br />
+
+
+            <label for="pass">Mot de passe</label>
+            <input type="password" id="pass" name="pass"><br />
+
+            <label for="confirmpass">Confirmez votre mot de passe</label>
+            <input type="password" id="confirmpass" name="confirmpass"><br/>
+
+            Sexe :<br />
+            <label for="homme">Homme</label>
+            <input type="radio" id="homme" name="sexe" value="homme">
+            <br />
+
+            <label for="femme">Femme</label>
+            <input type="radio" id="femme" name="sexe" value="femme">
+            <br />
+
+            Première inscription ?<br />
+            <label for="oui">Oui</label>
+            <input type="radio" name="ouinon" value="oui" id="oui"><br/>
+
+
+            <label for="non">Non</label>
+            <input type="radio" name="ouinon" value="non" id="non"><br/>
+
+
+
+
+            Vous habitez en
+            <select name="pays">
+                <option value="france">France</option>
+                <option value="belgique">Belgique</option>
+                <option value="suisse">Suisse</option>
+                <option value="espagne">Espagne</option>
+                <option value="italie">Italie</option>
+                <option value="angleterre">Angleterre</option>
+            </select>
+            <br />
+
+
+
+            <input id="bouton" type="submit" value="Envoyer">
+            </fieldset>
+        </form>
+        
+        </div>
+    
+</body>
+
+</html>

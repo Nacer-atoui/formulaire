@@ -1,0 +1,53 @@
+body{
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #333;
+    background-color: rgb(219, 255, 196);
+}
+
+#section1{
+    background-color: rgba(170, 200, 40, 0.6);
+    padding: 5%;
+    margin: 0 auto;
+    width: 50%;
+    height: 50%;
+    border-radius: 30px;
+    text-align: center;
+}
+
+#section1:hover{
+    box-shadow: 0px 0px 5px #444;
+}
+
+
+
+#section1 input{
+    width: 300px;
+    height: 20px;
+}
+
+#section1 label{
+    display: inline-block;
+    width: 200px;
+    padding: 10px 0px 15px 40px;
+}
+
+form{
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+
+.titre{
+    text-align: center;
+    
+}
+#bouton{
+    margin: 5%;
+    
+}
+
+
